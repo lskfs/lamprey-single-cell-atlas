@@ -1,0 +1,11 @@
+python code/immune/01.performSAMap.py\
+	-species1 Le\
+	-species2 Mo\
+	-fn1 immune_atlas_1208.h5ad\
+	-fn2 mouse_immunecell.h5ad\
+	-celltype1 celltype.1124\
+	-celltype2 name\
+	-NUMITERS 3\
+	-cpu 2\
+	-mappingtable mappingtable.Le_Mo.txt\
+	-enrichedGene table.Le_Mo.txt
